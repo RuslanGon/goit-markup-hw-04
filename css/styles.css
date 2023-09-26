@@ -119,6 +119,8 @@ header .container {
     height: 600px;
     text-align: center;
     padding: 188px 0;
+    background-image: url(./../images/people-office.jpg);
+    background: var(--GREY, rgba(46, 47, 66, 0.70));
 }
 
 
