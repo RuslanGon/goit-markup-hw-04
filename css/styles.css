@@ -142,8 +142,9 @@ header .container {
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
     url(./../images/people-office.jpg);
      background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
+    max-width: 1440px;
     
 }
 
@@ -175,6 +176,8 @@ min-width: 169px;
 border-radius: 4px;
 margin: auto;
 display: block;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -274,11 +277,7 @@ display: block;
     cursor: pointer;
 
     }
-
-    .team-item:focus {
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    }
-
+   
     .portfolio-item:hover, .p 
     {
        transform: translateY(0%);
